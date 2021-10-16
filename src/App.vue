@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <Users />
+   
   </div>
 </template>
+
 <script>
-import Users from './components/Users.vue';
+import Users from './components/Airtable.vue';
+
 export default {
   name: 'app',
   components: {
@@ -12,6 +14,7 @@ export default {
   },
 };
 </script>
+
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
