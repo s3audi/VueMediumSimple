@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Users from './components/Airtable.vue';
+import Users from './components/Bootstrap.vue';
 
 export default {
   name: 'app',
